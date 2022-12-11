@@ -1,46 +1,46 @@
-#####Andrei Vinogradov
+# Andrei Vinogradov
 
-######Contacts
+## Contacts
 
     Location: Saint-Petersburg, Russia
     Email: andreyv@live.com
     GitHub: Andrey178
 
-######About Me
+## About Me
 
 I am eager to learn person. Now I'm learning JavaScript programming language.
 
-######Skills
+## Skills
 
-    *Python
-    *Docker
-    *Linux
-    *HTML
-    *CSS
-    *JavaScript
-    *Git
-    *Jira
+    - Python
+    - Docker
+    - Linux
+    - HTML
+    - CSS
+    - JavaScript
+    - Git
+    - Jira
 
-######Code Example
+## Code Example
 
 ```     console.log('Hello world!');```
 
 ```     print('Hello world!)```
 
-######Work experience:
-    *IT Support
+## Work experience:
+    IT Support
 
-######Education
-    *Courses:
-        *Stepik
-        *Leetcode
-        *Codewars
-        *Datacamp
-        *SoloLearn
-        *FreeCodeCamp
-        *HTML Academy
-        *Skillbox
+## Education
+    - Courses:
+        - Stepik
+        - Leetcode
+        - Codewars
+        - Datacamp
+        - SoloLearn
+        - FreeCodeCamp
+        - HTML Academy
+        - Skillbox
 
-######English
+## English
 
-    *Strong B2 (Upper Intermediate)
+    Strong B2 (Upper Intermediate)
