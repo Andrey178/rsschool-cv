@@ -8,61 +8,101 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Andrei Vinogradov</h2>
-    <div>
-        <p><b>Contacts</b></p>
-        <p>Location: Saint-Petersburg, Russia <br>
-            Email: andreyv@live.com <br>
-            GitHub: Andrey178</p>
-    </div>
-    <div>
-        <p><b>About Me</b></p>
-        <p>Now I'm learning JavaScript programming language.</p>
-    </div>
-    <div>
-        <p><b>Skills</b></p>
-        <ul>
-            <li>Python</li>
-            <li>Docker</li>
-            <li>Linux</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Git</li>
-            <li>Jira</li>
+    <header class="header">
+        <div class="container">
+            <img src="./assets/img/16576679201890big.jpg" alt="myLogo" id="myLogo">
+            <h1>Andrei Vinogradov</h1>
+        </div>
+    </header>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#aboutMe" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#codeExample" class="nav-link">Code Example</a></li>
+            <li class="nav-item"><a href="#workExperience" class="nav-link">Work experience</a></li>
+            <li class="nav-item"><a href="#projectsMade" class="nav-link">Projects made</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
         </ul>
-        <p></p>
-    </div>
-    <div>
-        <p><b>Code Example</b></p>
-        <p>console.log('Hello world!');</p>
-        <p>print('Hello world!')</p>
-        <p>echo 'Hello world!'</p>
-    </div>
-    <div>
-        <p><b>Work experience:</b></p>
-        <p>IT Support</p>
-    </div>
-    <div>
-        <p><b>Education</b></p>
-        <ul>
-            <li>Courses
+    </nav>
+    <main class="main">
+        <div class="container"></div>
+            <section class="section-item">
+                <h2 id='contacts'>Contacts</h2>
+                <p>Current location: Saint-Petersburg, Russia</p>
                 <ul>
-                <li>Stepik</li>
-                <li>Leetcode</li>
-                <li>Codewars</li>
-                <li>Datacamp</li>
-                <li>SoloLearn</li>
-                <li>FreeCodeCamp</li>
-                <li>HTML Academy</li>
-                <li>Skillbox</li>
+                    <li>
+                        <p>E-mail: <a href="mailto:8_8job@mail.ru">8_8job@mail.ru</a></p>
+                    </li>
+                    <li>
+                        <p>GitHub: <a href="http://andrey178.github.io">Andrey178</a></p>
+                    </li>
+                </ul><p> <br> <br>
+                    </p>
+            </section>
+            <section class="section-item">
+                <h2 id='aboutMe'>About Me</h2>
+                <p>Now I'm learning JavaScript programming language.</p>
+            </section>
+            <section class="section-item">
+                <h2 id='skills'>Skills</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Docker</li>
+                    <li>Linux</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Git</li>
+                    <li>Jira</li>
                 </ul>
-            </li>
-        </ul>
-    </div>
-    <div>
-        <p><b>English</b></p>
-        <p>Strong B2 (Upper Intermediate)</p>
-    </div>
+                
+            </section>
+            <section class="section-item code">
+                <h2 id='codeExample'>Code Example</h2>
+                <p><code class="code">console.log('Hello world!');</code></p>
+                <p><code class="code">print('Hello world!')</code></p>
+                <p><code class="code">echo 'Hello world!'</code></p>
+            </section>
+            <section class="section-item">
+                <h2 id='workExperience'>Work experience:</h2>
+                <p>IT Support</p>
+            </section>
+            <section class="section-item">
+                <h2 id='education'>Education</h2>
+                <ul>
+                    <li>Courses
+                        <ul>
+                        <li>Stepik</li>
+                        <li>Leetcode</li>
+                        <li>Codewars</li>
+                        <li>Datacamp</li>
+                        <li>SoloLearn</li>
+                        <li>FreeCodeCamp</li>
+                        <li>HTML Academy</li>
+                        <li>Skillbox</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section class="section-item">
+                <h2 id='projectsMade'>Projects made</h2>
+                <p><a href="https://github.com/Andrey178/Stepik82067">SPA web-site on Django Rest Framework and NuxtJS</a></p>
+            </section>
+            <section class="section-item">
+                <h2 id='language'>English</h2>
+                <p>Strong B2 (Upper Intermediate)</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p><a href="http://andrey178.github.io">https://andrey178.github.io</a></p>
+            <p>Resume created in 2022</p>
+            <p><a href="https://app.rs.school">
+                <img id=rslogo src="https://app.rs.school/static/images/logo-rsschool3.png" alt="School logo"></a></p>
+        </div>
+    </footer>
 </body>
 </html>
